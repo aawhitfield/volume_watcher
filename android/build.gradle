@@ -24,6 +24,9 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 33
 
+    // Specify the namespace for the module. This is required by the new AGP.
+    namespace "com.magugi.volume_watcher"
+    
     defaultConfig {
         minSdkVersion 16
     }
